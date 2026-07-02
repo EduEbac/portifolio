@@ -1,9 +1,13 @@
-import Teste from './Teste';
+import Teste from './teste'
+import EstiloGlobal from './styles'
 
 function App() {
   return (
-    <Teste />
+    <>
+      <EstiloGlobal />
+      <Teste />
+    </>
   )
 }
 
-export default App;
+export default App
