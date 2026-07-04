@@ -6,5 +6,5 @@ export const Titulo = styled.h3<Props>`
   color: #252a35;
   font-size: ${(props) => (props.fontSize ? props.fontSize + 'px' : '14px')};
   font-weight: bold;
-  margin-bottom: 16px;
+  margin: 16px 0;
 `
