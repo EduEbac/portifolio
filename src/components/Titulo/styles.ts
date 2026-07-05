@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import type { Props } from './index'
 
 export const Titulo = styled.h3<Props>`
-  color: #252a35;
+  color: ${(props) => props.theme.corPrincipal};
   font-size: ${(props) => (props.fontSize ? props.fontSize + 'px' : '14px')};
   font-weight: bold;
   margin: 16px 0;
